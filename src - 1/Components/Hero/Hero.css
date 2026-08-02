@@ -1,0 +1,142 @@
+.hero_section{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    /* background-color: pink; */
+}
+.hero_content_area p{
+    padding-right: 200px;
+}
+.hero_area{
+    display: flex;
+}
+.hero_content_area .heading_span{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.hero_image {
+    max-width: 600px;
+    height: 500px;
+}
+.hero_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:1400px){
+    .hero_content_area p {
+    padding-right: 100px;
+}
+.hero_image {
+    max-width: 550px;
+    height: 450px;
+}
+}
+@media only screen and (max-width:1199px){
+ 
+.hero_image {
+    max-width: 470px;
+    height: 370px;
+
+}
+
+}
+
+@media only screen and (max-width:991px){
+    .hero_area{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero_content_area {
+    text-align: center;
+}
+.hero_content_area p {
+        padding-right: 0px;
+    }
+    .hero_section {
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+.hero_image {
+    max-width: 500px;
+    height: 500px;
+        margin-bottom: 50px;
+
+}
+.hero_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+}
+
+@media only screen and (max-width:767px){
+        .hero_section {
+        padding-top: 100px;
+    }
+        .hero_image {
+        max-width: 400px;
+        height: 400px;
+    }
+    .hero_content_area .heading_span {
+    font-size: 16px;
+}
+
+}
+
+
+@media only screen and (max-width:575px){
+        .hero_section {
+        padding-top: 80px;
+    }
+        .hero_image {
+        max-width: 340px;
+        height: 340px;
+    }
+    .hero_content_area .heading_span {
+    font-size: 15px;
+}
+    .hero_content_area p {
+       font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:480px){
+        .hero_section {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+        .hero_image {
+        max-width: 280px;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .hero_content_area .heading_span {
+    font-size: 14px;
+}
+    .hero_content_area p {
+       font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width:360px){
+        .hero_section {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+        .hero_image {
+        max-width: 240px;
+        height: 240px;
+        margin-bottom: 30px;
+    }
+    .hero_content_area .heading_span {
+    font-size: 13px;
+}
+    .hero_content_area p {
+       font-size: 13px;
+    }
+    
+}
