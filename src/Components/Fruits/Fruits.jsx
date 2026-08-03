@@ -1,13 +1,12 @@
 import React from 'react'
-// import CategoryPage from '../CategoryPage/CategoryPage'
-// import BgFruits from '../../assets/fruits-banner.jpg'
+import CategoryPage from '../CategoryPage/CategoryPage'
+import BgFruits from '../../assets/fruits-banner.jpg'
 
 const Fruits = () => {
   return (
-    <div></div>
-  // <div>
-  //    <CategoryPage title="Fruits & Veggies" bgImage={BgFruits} categories={['Fruits', 'vegetables']}/>
-  // </div>
+  <div>
+     <CategoryPage title="Fruits & Veggies" bgImage={BgFruits} categories={['Fruits', 'vegetables']}/>
+  </div>
   )
 }
 
