@@ -1,0 +1,138 @@
+.discount_section {
+    padding: 80px 0;
+    background-image: url(../../assets/fresh-fruits.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.disocunt_text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    flex-shrink: 0;
+}
+
+.discount_content_wrapper {
+    display: flex;
+    align-items: center;
+    padding-right: 400px;
+    gap: 40px;
+}
+
+.discount_content_area h2 span {
+    display: block;
+}
+
+.disocunt_text span {
+    font-size: 100px;
+    line-height: 1;
+}
+
+
+@media only screen and (max-width:1400px) {
+    .discount_content_wrapper {
+        padding-right: 300px;
+    }
+
+    .disocunt_text span {
+        font-size: 90px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .disocunt_text span {
+        font-size: 80px;
+    }
+
+    .discount_content_wrapper {
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    .discount_section {
+        padding: 60px 0;
+    }
+
+    .disocunt_text span {
+        font-size: 70px;
+    }
+
+    .discount_content_wrapper {
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .discount_section {
+        padding: 50px 0;
+    }
+
+    .disocunt_text span {
+        font-size: 60px;
+    }
+
+    .discount_content_wrapper {
+        padding-right: 0px;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .discount_section {
+        background-size: cover;
+        background-position: left;
+    }
+
+    .disocunt_text span {
+        font-size: 50px;
+    }
+
+    .disocunt_text {
+        writing-mode: unset;
+        transform: rotate(0);
+        flex-shrink: unset;
+    }
+
+    .discount_content_wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .discount_content_area p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .discount_section {
+        padding: 40px 0;
+    }
+
+    .disocunt_text span {
+        font-size: 40px;
+    }
+
+    .discount_content_area p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .discount_section {
+        padding: 30px 0;
+    }
+  .discount_content_area h2{
+    font-size: 22px;
+  }
+    .discount_content_area p {
+        font-size: 13px;
+    }
+    .discount_content_wrapper {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,39 @@
+.common_heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.common_heading h2{
+    position: relative;
+    display: inline;
+}
+.common_heading h2::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 5px;
+    background-color: #ff6900;
+    bottom: -11px;
+    border-radius: 12px;
+    right: 0;
+}
+
+@media only screen and (max-width:991px){
+        .common_heading h2::after {
+    height: 3px;
+    bottom: -13px;
+}
+.common_heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+}
+
+@media only screen and (max-width:480px){
+        .common_heading h2::after {
+        height: 2px;
+        bottom: -10px;
+    }
+        .common_heading {
+        margin-bottom: 20px;
+    }
+}
