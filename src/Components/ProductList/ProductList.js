@@ -4,13 +4,13 @@ import Eggs from '../../assets/eggs.png'
 import Cabbage from '../../assets/cabbage.png'
 import Eggplant from '../../assets/eggplant.png'
 import Shrimp from '../../assets/shrimp.png'
-import Kiwi from '../../assets/kiwi.png'
+// import Kiwi from '../../assets/kiwi.png'
 import Capsicum from '../../assets/capsicum.png'
 import Broccoli from '../../assets/broccoli.png'
 import Yogurt from '../../assets/yogurt.png'
 import Beef from '../../assets/beef.png'
 import ChickenBreast from '../../assets/chicken-breast.png'
-import Kale from '../../assets/kale.png'
+// import Kale from '../../assets/kale.png'
 import Cheese from '../../assets/cheese.png'
 import CondensedMilk from '../../assets/condensed-milk.png'
 import Salmon from '../../assets/salmon.png'
@@ -66,13 +66,13 @@ const products = [
         price: 3.5, category: 'SeaFood',
         image: Shrimp
     },
-    {
-        id: 7,
-        name: 'Kiwi',
-        price: 2.05,
-        category: 'Fruits',
-        image: Kiwi
-    },
+    // {
+    //     id: 7,
+    //     name: 'Kiwi',
+    //     price: 2.05,
+    //     category: 'Fruits',
+    //     image: Kiwi 
+    // },
     {
         id: 8,
         name: 'Green Capsicum',
@@ -108,13 +108,13 @@ const products = [
         category: 'Meat',
         image: ChickenBreast
     },
-    {
-        id: 13,
-        name: 'Kale Leaves',
-        price: 3.0,
-        category: 'Vegetables',
-        image: Kale
-    },
+    // {
+    //     id: 13,
+    //     name: 'Kale Leaves',
+    //     price: 3.0,
+    //     category: 'Vegetables',
+    //     image: Kale
+    // },
     {
         id: 14,
         name: 'Mozzarella Cheese',
