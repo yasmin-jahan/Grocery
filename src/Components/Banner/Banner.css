@@ -1,6 +1,6 @@
 .banner_section {
     padding: 220px 0;
-    margin-top: 110px;
+    margin-top: 92px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,32 +23,32 @@
 @media only screen and (max-width:1400px) {
     .banner_section {
         padding: 180px 0;
-        margin-top: 92px;
     }
 }
 
 @media only screen and (max-width:991px) {
     .banner_section {
         padding: 150px 0;
-         margin-top: 88px;
+         margin-top: 82px;
     }
 }
 
 @media only screen and (max-width:767px) {
     .banner_section {
         padding: 120px 0;
+           margin-top: 69px;
     }
 }
 
 @media only screen and (max-width: 575px) {
     .banner_section {
-        margin-top: 72px;
+        margin-top: 54px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .banner_section {
-        margin-top: 60px;
+        margin-top: 50px;
         padding: 100px 0;
     }
     .banner_heading  h2{
